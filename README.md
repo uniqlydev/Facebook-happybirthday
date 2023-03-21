@@ -1,15 +1,15 @@
-# Facebook-happybirthday
-Facebook-happybirthday is a simple script to wish your friends on their birthday on Facebook.
+# Facebook Post Poster
+THis is a simple script that uses PYAUTOGUI to post on your friend's page with variety of options for Birthday quotes.
 
-## Installation
-1. Clone the repository
-2. Install the requirements
-3. Run the script
+## Requirements
+- Python 3.6 or above
 
-## Usage
-1. Run the script
-2. Enter your Facebook username and password
-3. Enter the name of the friend you want to wish
-4. Enter the message you want to post on their page
-5. Enter the number of times you want to post the message
-6. Enter the time interval between each post
+## Setup
+- Clone the repository
+- Install the requirements using `pip install -r requirements.txt`
+- Run the script using `locationMouse.py` to get the coordinates of the post box and the post button
+- Edit the config.json file with the necessary details
+- Run the script `python fb.py`
+
+## Note
+- The script is not perfect and may not work for you. You may need to tweak the coordinates of the post box and the post button.
